@@ -1,0 +1,1001 @@
+id,date,time,doctor,department,diagnosis,revenue,waiting_time
+1,2025-10-18,05:38,Dr. Thomas,Orthopedics,Fracture,497,96
+2,2026-03-05,15:21,Dr. Smith,Emergency,Trauma,800,91
+3,2025-12-26,09:25,Dr. Wilson,Pediatrics,Cold,790,17
+4,2025-10-25,19:35,Dr. Taylor,Pediatrics,Vaccination,454,43
+5,2025-10-19,22:12,Dr. White,Neurology,Migraine,717,107
+6,2026-02-08,15:14,Dr. Jones,Emergency,High Fever,1015,100
+7,2025-11-10,01:19,Dr. Smith,Emergency,High Fever,504,16
+8,2025-10-09,05:34,Dr. Thomas,Orthopedics,Back Pain,274,104
+9,2025-10-18,13:43,Dr. Thomas,Orthopedics,Sprain,326,104
+10,2025-11-04,00:16,Dr. Harris,Neurology,Seizure,219,119
+11,2026-01-28,12:29,Dr. Thomas,Orthopedics,Sprain,1461,29
+12,2026-01-09,13:10,Dr. Harris,Neurology,Dizziness,673,103
+13,2026-02-03,10:12,Dr. Wilson,Pediatrics,Flu,1338,15
+14,2025-11-14,22:10,Dr. Wilson,Pediatrics,Flu,1259,54
+15,2025-12-14,00:05,Dr. Smith,Emergency,Chest Pain,423,85
+16,2025-12-06,19:14,Dr. Anderson,General,Headache,1000,63
+17,2025-10-31,08:30,Dr. Anderson,General,Fever,1015,59
+18,2025-10-27,14:53,Dr. Harris,Neurology,Seizure,1114,24
+19,2025-10-26,21:04,Dr. White,Neurology,Seizure,1101,67
+20,2026-01-24,08:25,Dr. Moore,General,Fever,1229,31
+21,2026-02-27,22:01,Dr. Jackson,Orthopedics,Fracture,1157,110
+22,2026-01-14,08:06,Dr. Thomas,Orthopedics,Fracture,1524,113
+23,2026-01-07,02:20,Dr. Brown,Cardiology,Arrhythmia,1262,24
+24,2025-12-10,19:53,Dr. Smith,Emergency,Chest Pain,135,37
+25,2025-10-30,13:06,Dr. Harris,Neurology,Seizure,679,11
+26,2025-12-30,19:18,Dr. Jones,Emergency,High Fever,1278,98
+27,2026-01-23,14:07,Dr. Taylor,Pediatrics,Vaccination,1444,115
+28,2025-12-25,13:11,Dr. Jones,Emergency,Trauma,884,29
+29,2026-02-22,18:53,Dr. Smith,Emergency,Trauma,477,61
+30,2026-03-01,11:33,Dr. Taylor,Pediatrics,Checkup,130,28
+31,2025-11-26,07:41,Dr. Jackson,Orthopedics,Fracture,1281,11
+32,2025-10-04,05:19,Dr. Moore,General,Fever,407,81
+33,2026-01-31,18:00,Dr. Taylor,Pediatrics,Flu,702,118
+34,2026-03-19,04:42,Dr. Davis,Cardiology,Hypertension,801,62
+35,2026-01-21,03:29,Dr. Wilson,Pediatrics,Cold,186,115
+36,2026-01-24,04:54,Dr. Wilson,Pediatrics,Vaccination,476,89
+37,2025-10-30,10:49,Dr. Smith,Emergency,Trauma,1128,56
+38,2026-01-31,04:27,Dr. Moore,General,Headache,1533,96
+39,2025-12-28,05:14,Dr. Moore,General,Physical Exam,993,54
+40,2025-11-20,04:20,Dr. Moore,General,Headache,142,41
+41,2025-11-02,02:35,Dr. Jones,Emergency,High Fever,391,78
+42,2026-01-29,23:46,Dr. Brown,Cardiology,Arrhythmia,97,35
+43,2025-12-12,11:20,Dr. Moore,General,Headache,76,105
+44,2026-01-10,15:38,Dr. Jackson,Orthopedics,Fracture,1212,30
+45,2026-01-30,18:02,Dr. Smith,Emergency,Trauma,669,32
+46,2026-01-07,05:18,Dr. Moore,General,Physical Exam,100,67
+47,2026-03-23,20:01,Dr. Brown,Cardiology,Heart Failure,1055,13
+48,2026-01-17,05:15,Dr. Smith,Emergency,Injury,1002,43
+49,2025-10-17,03:16,Dr. Harris,Neurology,Seizure,537,117
+50,2026-01-28,04:59,Dr. Wilson,Pediatrics,Vaccination,273,115
+51,2025-12-12,09:46,Dr. Anderson,General,Fever,869,59
+52,2025-12-27,04:25,Dr. Davis,Cardiology,Hypertension,675,76
+53,2025-12-11,13:27,Dr. White,Neurology,Migraine,1084,26
+54,2026-02-24,02:17,Dr. Anderson,General,Fever,1221,68
+55,2025-11-08,10:51,Dr. Jones,Emergency,High Fever,233,47
+56,2026-02-18,21:38,Dr. Brown,Cardiology,Arrhythmia,1001,49
+57,2025-11-18,17:17,Dr. Taylor,Pediatrics,Cold,1518,114
+58,2026-03-13,10:07,Dr. Wilson,Pediatrics,Cold,96,115
+59,2026-03-12,22:12,Dr. White,Neurology,Dizziness,1129,65
+60,2025-10-18,13:50,Dr. Taylor,Pediatrics,Cold,614,107
+61,2026-03-07,07:56,Dr. Moore,General,Headache,1237,13
+62,2026-03-12,09:59,Dr. Taylor,Pediatrics,Flu,567,35
+63,2025-10-15,09:20,Dr. Smith,Emergency,Injury,757,48
+64,2026-02-25,04:47,Dr. White,Neurology,Migraine,577,99
+65,2026-02-04,11:28,Dr. Taylor,Pediatrics,Cold,549,30
+66,2025-11-22,22:27,Dr. Jackson,Orthopedics,Sprain,869,48
+67,2025-11-21,12:03,Dr. Taylor,Pediatrics,Cold,540,93
+68,2026-02-28,20:32,Dr. Harris,Neurology,Dizziness,1336,42
+69,2026-03-11,21:50,Dr. White,Neurology,Seizure,136,87
+70,2025-10-01,20:27,Dr. White,Neurology,Seizure,865,45
+71,2025-10-07,23:04,Dr. Anderson,General,Physical Exam,414,117
+72,2025-12-03,23:04,Dr. Anderson,General,Fever,1035,103
+73,2026-03-19,12:22,Dr. Moore,General,Physical Exam,514,108
+74,2026-01-08,03:23,Dr. Moore,General,Fever,697,78
+75,2025-10-18,21:26,Dr. Smith,Emergency,Injury,340,87
+76,2026-03-22,07:25,Dr. Anderson,General,Fever,472,32
+77,2025-10-13,00:28,Dr. Thomas,Orthopedics,Back Pain,77,23
+78,2026-02-06,05:02,Dr. Jackson,Orthopedics,Back Pain,626,25
+79,2026-02-20,06:04,Dr. Brown,Cardiology,Heart Failure,426,63
+80,2026-03-13,06:20,Dr. Wilson,Pediatrics,Checkup,75,69
+81,2025-09-30,22:36,Dr. Brown,Cardiology,Arrhythmia,1103,118
+82,2025-10-14,08:52,Dr. Moore,General,Physical Exam,559,63
+83,2026-01-02,19:58,Dr. Taylor,Pediatrics,Cold,971,64
+84,2025-12-31,07:01,Dr. Davis,Cardiology,Hypertension,1054,87
+85,2026-03-13,08:25,Dr. Moore,General,Fever,771,54
+86,2026-03-04,10:16,Dr. Thomas,Orthopedics,Fracture,1178,117
+87,2026-01-18,18:46,Dr. Smith,Emergency,Trauma,1427,69
+88,2026-03-13,11:11,Dr. Brown,Cardiology,Heart Failure,1455,85
+89,2026-01-18,20:09,Dr. Brown,Cardiology,Heart Failure,552,51
+90,2026-02-03,13:38,Dr. Anderson,General,Fever,577,37
+91,2025-12-02,09:32,Dr. Harris,Neurology,Migraine,1395,38
+92,2025-12-03,10:15,Dr. Davis,Cardiology,Arrhythmia,255,41
+93,2025-11-13,05:50,Dr. White,Neurology,Seizure,425,16
+94,2025-11-10,01:56,Dr. Davis,Cardiology,Heart Failure,680,100
+95,2026-03-26,05:13,Dr. Wilson,Pediatrics,Vaccination,1037,73
+96,2026-02-16,07:04,Dr. Harris,Neurology,Seizure,372,55
+97,2025-11-29,09:40,Dr. Harris,Neurology,Dizziness,1345,28
+98,2025-12-02,05:05,Dr. Jackson,Orthopedics,Back Pain,548,13
+99,2025-12-13,03:25,Dr. Davis,Cardiology,Arrhythmia,1218,50
+100,2025-12-25,13:03,Dr. Moore,General,Headache,939,28
+101,2026-02-11,23:17,Dr. Moore,General,Headache,1148,45
+102,2025-10-31,17:39,Dr. Taylor,Pediatrics,Cold,1500,22
+103,2026-01-16,14:01,Dr. Smith,Emergency,Injury,255,46
+104,2026-02-02,19:17,Dr. Harris,Neurology,Seizure,1175,45
+105,2026-02-10,07:26,Dr. Anderson,General,Headache,107,34
+106,2025-10-04,04:15,Dr. Anderson,General,Fever,1007,55
+107,2026-01-11,15:30,Dr. Taylor,Pediatrics,Vaccination,171,58
+108,2025-12-02,14:32,Dr. Jones,Emergency,Injury,1071,103
+109,2026-01-19,09:22,Dr. Moore,General,Physical Exam,783,22
+110,2025-12-22,14:30,Dr. Smith,Emergency,Injury,362,77
+111,2025-11-28,11:39,Dr. Jones,Emergency,Trauma,775,114
+112,2026-01-25,22:30,Dr. Taylor,Pediatrics,Flu,805,113
+113,2025-11-02,21:54,Dr. Taylor,Pediatrics,Cold,566,51
+114,2025-12-12,05:52,Dr. Harris,Neurology,Seizure,158,87
+115,2026-02-21,19:05,Dr. Moore,General,Fever,1441,115
+116,2026-03-25,20:21,Dr. Brown,Cardiology,Heart Failure,1406,102
+117,2026-03-17,06:18,Dr. Smith,Emergency,Injury,984,93
+118,2025-10-22,09:01,Dr. Jackson,Orthopedics,Back Pain,1187,15
+119,2026-01-01,22:31,Dr. Smith,Emergency,Trauma,1264,50
+120,2026-02-24,16:32,Dr. Jones,Emergency,High Fever,1143,82
+121,2026-03-24,15:09,Dr. Jones,Emergency,Injury,587,115
+122,2025-11-25,11:43,Dr. Jackson,Orthopedics,Fracture,691,29
+123,2025-11-06,10:35,Dr. Wilson,Pediatrics,Checkup,1438,23
+124,2026-03-23,11:03,Dr. Anderson,General,Physical Exam,910,105
+125,2025-10-03,18:40,Dr. Jones,Emergency,Chest Pain,1310,105
+126,2025-11-24,21:01,Dr. Harris,Neurology,Migraine,1272,119
+127,2025-12-12,01:54,Dr. Thomas,Orthopedics,Fracture,1467,45
+128,2026-03-16,23:31,Dr. Brown,Cardiology,Arrhythmia,324,39
+129,2026-02-25,02:27,Dr. Brown,Cardiology,Arrhythmia,1339,85
+130,2025-11-26,12:06,Dr. Harris,Neurology,Seizure,778,69
+131,2026-01-01,06:40,Dr. Harris,Neurology,Seizure,1375,67
+132,2025-10-12,16:39,Dr. Harris,Neurology,Seizure,1331,96
+133,2025-12-21,02:57,Dr. Thomas,Orthopedics,Back Pain,849,48
+134,2026-03-19,14:30,Dr. Thomas,Orthopedics,Sprain,1396,68
+135,2026-02-18,05:15,Dr. Thomas,Orthopedics,Fracture,1528,95
+136,2025-11-23,20:40,Dr. Jones,Emergency,Injury,626,90
+137,2026-02-11,15:36,Dr. Jones,Emergency,High Fever,1100,30
+138,2025-12-23,06:52,Dr. Brown,Cardiology,Arrhythmia,722,109
+139,2026-01-12,06:40,Dr. Taylor,Pediatrics,Flu,751,110
+140,2026-02-21,13:33,Dr. Jackson,Orthopedics,Sprain,731,25
+141,2025-11-10,18:17,Dr. Taylor,Pediatrics,Cold,212,41
+142,2026-03-07,20:01,Dr. Anderson,General,Fever,874,119
+143,2025-10-19,12:56,Dr. Brown,Cardiology,Heart Failure,1459,101
+144,2025-12-09,06:13,Dr. Harris,Neurology,Dizziness,528,24
+145,2025-12-31,12:47,Dr. White,Neurology,Migraine,926,54
+146,2026-02-10,10:37,Dr. White,Neurology,Seizure,848,42
+147,2026-03-17,05:04,Dr. Moore,General,Fever,618,21
+148,2026-01-05,14:20,Dr. Davis,Cardiology,Arrhythmia,188,61
+149,2025-11-21,01:03,Dr. Smith,Emergency,Trauma,1246,24
+150,2025-11-02,23:43,Dr. Brown,Cardiology,Heart Failure,965,68
+151,2025-10-30,10:57,Dr. Davis,Cardiology,Heart Failure,366,36
+152,2025-10-02,23:10,Dr. Wilson,Pediatrics,Cold,121,101
+153,2025-11-10,02:01,Dr. Wilson,Pediatrics,Checkup,1217,119
+154,2025-11-01,15:01,Dr. Wilson,Pediatrics,Flu,1450,63
+155,2026-02-18,20:56,Dr. Jones,Emergency,Trauma,280,73
+156,2025-12-15,16:05,Dr. Jackson,Orthopedics,Sprain,176,25
+157,2025-11-27,13:10,Dr. Jackson,Orthopedics,Sprain,1458,102
+158,2026-02-05,10:25,Dr. Thomas,Orthopedics,Fracture,312,18
+159,2026-03-25,18:05,Dr. Anderson,General,Fever,1450,64
+160,2026-01-09,11:35,Dr. Anderson,General,Fever,723,63
+161,2025-12-06,11:19,Dr. Harris,Neurology,Dizziness,568,29
+162,2026-01-22,11:17,Dr. Smith,Emergency,Injury,497,106
+163,2026-02-08,15:14,Dr. Taylor,Pediatrics,Flu,1237,46
+164,2025-12-26,01:41,Dr. Taylor,Pediatrics,Vaccination,397,65
+165,2026-03-27,02:23,Dr. Anderson,General,Headache,1110,90
+166,2025-11-10,08:41,Dr. Moore,General,Fever,627,34
+167,2025-11-09,01:39,Dr. Wilson,Pediatrics,Flu,504,80
+168,2025-12-02,09:09,Dr. Moore,General,Physical Exam,1057,57
+169,2025-12-28,09:47,Dr. Moore,General,Fever,599,42
+170,2025-12-02,11:34,Dr. Harris,Neurology,Migraine,1149,11
+171,2026-02-10,12:24,Dr. Anderson,General,Fever,1342,81
+172,2025-12-26,17:31,Dr. Taylor,Pediatrics,Vaccination,147,54
+173,2025-10-10,15:37,Dr. White,Neurology,Seizure,1395,58
+174,2026-03-05,14:38,Dr. Moore,General,Headache,993,87
+175,2025-11-04,00:42,Dr. White,Neurology,Dizziness,1325,91
+176,2025-12-05,23:09,Dr. Harris,Neurology,Dizziness,1020,43
+177,2025-11-13,17:19,Dr. Smith,Emergency,Chest Pain,477,39
+178,2025-12-18,13:27,Dr. Wilson,Pediatrics,Vaccination,183,90
+179,2025-11-15,02:23,Dr. White,Neurology,Migraine,958,46
+180,2026-01-06,01:46,Dr. Anderson,General,Physical Exam,1349,115
+181,2026-02-26,22:25,Dr. Brown,Cardiology,Hypertension,647,71
+182,2025-10-07,16:12,Dr. Thomas,Orthopedics,Back Pain,750,93
+183,2025-11-16,15:53,Dr. Brown,Cardiology,Arrhythmia,329,115
+184,2026-02-02,06:19,Dr. White,Neurology,Dizziness,403,104
+185,2025-10-16,10:25,Dr. Moore,General,Fever,776,17
+186,2026-01-08,00:49,Dr. Wilson,Pediatrics,Cold,262,35
+187,2026-02-21,21:09,Dr. Anderson,General,Fever,245,68
+188,2026-02-28,03:32,Dr. White,Neurology,Migraine,1383,85
+189,2025-11-12,20:56,Dr. Brown,Cardiology,Arrhythmia,1154,77
+190,2026-03-26,19:41,Dr. Davis,Cardiology,Heart Failure,1262,100
+191,2025-12-21,14:44,Dr. White,Neurology,Migraine,1153,10
+192,2025-12-04,10:11,Dr. Brown,Cardiology,Hypertension,501,68
+193,2025-10-27,09:06,Dr. Wilson,Pediatrics,Checkup,1440,39
+194,2026-02-05,03:43,Dr. Jones,Emergency,High Fever,681,95
+195,2025-10-17,10:10,Dr. Moore,General,Physical Exam,156,60
+196,2025-12-20,11:32,Dr. Wilson,Pediatrics,Flu,1106,100
+197,2026-02-23,22:42,Dr. Jones,Emergency,Injury,1355,119
+198,2025-12-15,19:53,Dr. Harris,Neurology,Migraine,987,102
+199,2025-12-05,11:48,Dr. White,Neurology,Migraine,939,100
+200,2025-11-30,08:50,Dr. Davis,Cardiology,Heart Failure,156,103
+201,2025-12-14,14:00,Dr. Jones,Emergency,Trauma,309,18
+202,2026-02-08,13:39,Dr. Jackson,Orthopedics,Sprain,322,31
+203,2025-11-28,20:43,Dr. Thomas,Orthopedics,Sprain,1396,78
+204,2025-11-08,15:03,Dr. Wilson,Pediatrics,Vaccination,909,86
+205,2025-12-07,08:42,Dr. Smith,Emergency,Chest Pain,289,55
+206,2025-11-19,12:30,Dr. Taylor,Pediatrics,Vaccination,1029,53
+207,2026-01-31,02:29,Dr. Anderson,General,Headache,921,33
+208,2025-10-27,21:01,Dr. White,Neurology,Migraine,1100,51
+209,2025-10-16,22:20,Dr. Brown,Cardiology,Arrhythmia,296,53
+210,2025-11-17,21:25,Dr. Thomas,Orthopedics,Sprain,117,82
+211,2026-03-29,21:15,Dr. Wilson,Pediatrics,Checkup,488,39
+212,2026-02-08,07:24,Dr. Jones,Emergency,Trauma,383,14
+213,2025-12-07,03:02,Dr. Thomas,Orthopedics,Fracture,117,100
+214,2025-12-09,00:59,Dr. Brown,Cardiology,Hypertension,350,53
+215,2025-11-25,08:54,Dr. Jackson,Orthopedics,Back Pain,1113,103
+216,2025-10-11,12:59,Dr. Anderson,General,Physical Exam,567,30
+217,2026-03-07,04:23,Dr. Jones,Emergency,Trauma,248,90
+218,2026-03-18,00:59,Dr. Anderson,General,Headache,1220,119
+219,2026-01-13,03:49,Dr. Taylor,Pediatrics,Checkup,226,96
+220,2026-03-14,03:15,Dr. Anderson,General,Physical Exam,1294,23
+221,2025-12-06,00:54,Dr. Smith,Emergency,Chest Pain,589,38
+222,2025-10-17,18:47,Dr. Harris,Neurology,Seizure,493,83
+223,2026-02-14,15:44,Dr. Brown,Cardiology,Heart Failure,671,91
+224,2025-10-19,05:32,Dr. Anderson,General,Physical Exam,806,78
+225,2026-01-20,16:41,Dr. Thomas,Orthopedics,Fracture,1172,65
+226,2026-02-08,03:19,Dr. Anderson,General,Headache,911,67
+227,2026-01-05,13:32,Dr. White,Neurology,Migraine,133,56
+228,2025-11-13,10:15,Dr. Jackson,Orthopedics,Back Pain,179,65
+229,2026-02-11,08:07,Dr. Harris,Neurology,Migraine,670,39
+230,2026-02-19,13:22,Dr. Jackson,Orthopedics,Fracture,1420,19
+231,2025-10-18,12:25,Dr. Thomas,Orthopedics,Sprain,793,59
+232,2025-10-31,17:43,Dr. Smith,Emergency,Injury,1308,113
+233,2025-12-14,15:26,Dr. Davis,Cardiology,Arrhythmia,131,82
+234,2026-01-24,08:06,Dr. Moore,General,Physical Exam,1423,103
+235,2025-11-08,17:58,Dr. Taylor,Pediatrics,Vaccination,1415,82
+236,2025-10-07,07:20,Dr. Harris,Neurology,Dizziness,1065,87
+237,2025-12-13,18:51,Dr. Brown,Cardiology,Arrhythmia,654,105
+238,2025-12-28,01:09,Dr. Taylor,Pediatrics,Checkup,345,109
+239,2025-12-26,03:40,Dr. Anderson,General,Physical Exam,772,118
+240,2025-12-01,18:00,Dr. Moore,General,Physical Exam,554,101
+241,2026-01-25,11:43,Dr. Taylor,Pediatrics,Vaccination,1514,104
+242,2025-10-16,23:56,Dr. Jackson,Orthopedics,Sprain,863,99
+243,2025-11-24,15:34,Dr. Thomas,Orthopedics,Fracture,158,35
+244,2026-03-24,18:01,Dr. White,Neurology,Migraine,748,89
+245,2025-12-10,02:52,Dr. Taylor,Pediatrics,Checkup,1536,56
+246,2026-03-07,09:01,Dr. Brown,Cardiology,Heart Failure,1272,57
+247,2025-10-14,08:39,Dr. Moore,General,Fever,1347,81
+248,2026-02-21,21:21,Dr. Taylor,Pediatrics,Flu,576,100
+249,2025-11-02,19:05,Dr. Wilson,Pediatrics,Cold,129,104
+250,2025-10-10,16:17,Dr. Taylor,Pediatrics,Vaccination,1097,92
+251,2026-01-23,17:09,Dr. White,Neurology,Dizziness,1394,76
+252,2025-12-22,08:00,Dr. White,Neurology,Dizziness,1466,105
+253,2025-10-22,14:23,Dr. Jackson,Orthopedics,Sprain,1401,73
+254,2025-09-30,06:36,Dr. Brown,Cardiology,Arrhythmia,975,105
+255,2025-11-02,23:33,Dr. Smith,Emergency,High Fever,492,38
+256,2026-01-09,10:06,Dr. Jones,Emergency,Trauma,1296,33
+257,2026-03-14,23:34,Dr. Taylor,Pediatrics,Vaccination,871,51
+258,2026-02-22,12:27,Dr. Anderson,General,Headache,953,97
+259,2025-10-23,05:31,Dr. Taylor,Pediatrics,Flu,372,77
+260,2025-10-28,11:37,Dr. Brown,Cardiology,Heart Failure,1202,69
+261,2026-03-08,20:25,Dr. White,Neurology,Seizure,1444,27
+262,2025-11-08,10:02,Dr. Anderson,General,Headache,783,114
+263,2025-11-17,23:17,Dr. Thomas,Orthopedics,Back Pain,946,77
+264,2026-02-03,00:41,Dr. Anderson,General,Headache,631,49
+265,2026-03-01,02:36,Dr. Smith,Emergency,Chest Pain,1503,79
+266,2025-11-28,15:50,Dr. Smith,Emergency,Chest Pain,678,113
+267,2025-10-07,21:21,Dr. Jackson,Orthopedics,Sprain,874,61
+268,2025-12-29,02:23,Dr. Taylor,Pediatrics,Cold,125,94
+269,2026-03-27,00:22,Dr. Jones,Emergency,Trauma,1021,66
+270,2025-12-15,07:37,Dr. Thomas,Orthopedics,Sprain,1175,108
+271,2026-01-29,06:32,Dr. Jones,Emergency,Trauma,686,95
+272,2026-01-30,21:50,Dr. Jackson,Orthopedics,Sprain,267,45
+273,2025-12-06,03:01,Dr. Davis,Cardiology,Arrhythmia,797,67
+274,2025-12-31,03:52,Dr. Thomas,Orthopedics,Sprain,1223,30
+275,2026-03-21,06:49,Dr. Taylor,Pediatrics,Vaccination,1114,14
+276,2025-12-19,01:05,Dr. Smith,Emergency,Injury,1023,76
+277,2025-10-30,07:22,Dr. Harris,Neurology,Seizure,1078,119
+278,2025-11-19,02:28,Dr. White,Neurology,Seizure,1341,118
+279,2025-10-03,16:32,Dr. Harris,Neurology,Migraine,1023,34
+280,2025-11-01,17:10,Dr. Brown,Cardiology,Heart Failure,760,29
+281,2026-02-24,15:41,Dr. Harris,Neurology,Seizure,514,57
+282,2026-03-16,08:35,Dr. Wilson,Pediatrics,Checkup,415,48
+283,2026-02-17,16:16,Dr. Brown,Cardiology,Hypertension,105,43
+284,2025-11-10,15:13,Dr. Davis,Cardiology,Heart Failure,1266,105
+285,2026-02-12,20:42,Dr. Wilson,Pediatrics,Vaccination,1474,16
+286,2026-03-24,14:09,Dr. Brown,Cardiology,Arrhythmia,572,91
+287,2026-03-02,15:01,Dr. Taylor,Pediatrics,Cold,1345,39
+288,2025-11-17,11:31,Dr. Smith,Emergency,Trauma,1066,25
+289,2025-12-18,00:39,Dr. Harris,Neurology,Migraine,1274,39
+290,2025-10-27,18:19,Dr. Davis,Cardiology,Arrhythmia,1048,81
+291,2025-11-28,02:57,Dr. Anderson,General,Physical Exam,297,23
+292,2026-02-14,09:48,Dr. Anderson,General,Headache,1115,71
+293,2026-01-27,11:05,Dr. Jackson,Orthopedics,Back Pain,968,43
+294,2025-12-05,08:50,Dr. Moore,General,Headache,556,78
+295,2025-10-14,08:58,Dr. Taylor,Pediatrics,Checkup,1227,41
+296,2025-10-29,09:03,Dr. Brown,Cardiology,Arrhythmia,1384,68
+297,2025-12-24,16:32,Dr. Jones,Emergency,High Fever,1137,14
+298,2026-03-18,21:15,Dr. Davis,Cardiology,Heart Failure,846,103
+299,2026-02-11,02:08,Dr. Moore,General,Fever,584,71
+300,2025-10-09,19:12,Dr. Wilson,Pediatrics,Flu,1460,54
+301,2026-02-24,17:37,Dr. Jones,Emergency,High Fever,264,60
+302,2026-03-01,01:24,Dr. Jackson,Orthopedics,Fracture,730,27
+303,2025-11-30,00:24,Dr. Thomas,Orthopedics,Fracture,466,85
+304,2026-02-20,02:25,Dr. Taylor,Pediatrics,Cold,266,43
+305,2026-01-08,16:23,Dr. Thomas,Orthopedics,Fracture,438,110
+306,2026-02-25,00:34,Dr. Davis,Cardiology,Heart Failure,868,41
+307,2026-01-28,05:00,Dr. Thomas,Orthopedics,Fracture,327,115
+308,2025-10-17,09:33,Dr. Smith,Emergency,Injury,1140,71
+309,2026-01-26,10:57,Dr. Harris,Neurology,Dizziness,1264,66
+310,2026-02-16,21:43,Dr. Davis,Cardiology,Hypertension,162,28
+311,2025-12-28,01:37,Dr. Moore,General,Headache,1311,41
+312,2026-03-11,02:14,Dr. Wilson,Pediatrics,Vaccination,922,108
+313,2026-03-14,04:15,Dr. Jackson,Orthopedics,Sprain,564,39
+314,2026-03-03,12:00,Dr. Jones,Emergency,Injury,981,33
+315,2026-01-12,20:06,Dr. Taylor,Pediatrics,Vaccination,902,79
+316,2025-10-04,13:29,Dr. Smith,Emergency,Chest Pain,1052,82
+317,2025-12-08,04:07,Dr. Taylor,Pediatrics,Flu,1425,70
+318,2026-03-04,11:45,Dr. Moore,General,Headache,712,113
+319,2026-02-24,17:47,Dr. Jackson,Orthopedics,Back Pain,1101,109
+320,2025-10-08,17:07,Dr. Wilson,Pediatrics,Vaccination,1249,70
+321,2026-03-19,18:51,Dr. Harris,Neurology,Migraine,974,68
+322,2026-02-15,16:22,Dr. Jones,Emergency,Chest Pain,1374,108
+323,2025-10-31,10:33,Dr. Thomas,Orthopedics,Fracture,184,87
+324,2026-01-20,16:05,Dr. Jones,Emergency,Chest Pain,539,89
+325,2026-01-24,03:27,Dr. Jones,Emergency,Injury,86,60
+326,2026-03-17,23:01,Dr. Brown,Cardiology,Arrhythmia,1436,106
+327,2026-03-06,05:34,Dr. Wilson,Pediatrics,Vaccination,1308,46
+328,2025-11-27,18:26,Dr. Taylor,Pediatrics,Checkup,830,96
+329,2026-01-29,16:29,Dr. Taylor,Pediatrics,Cold,644,15
+330,2026-01-02,16:43,Dr. Brown,Cardiology,Hypertension,246,60
+331,2026-03-14,02:40,Dr. Moore,General,Physical Exam,911,18
+332,2025-11-01,10:12,Dr. Moore,General,Headache,1458,117
+333,2025-10-08,19:52,Dr. Smith,Emergency,Trauma,856,29
+334,2025-12-17,07:51,Dr. White,Neurology,Migraine,605,63
+335,2025-12-23,10:12,Dr. Moore,General,Physical Exam,337,91
+336,2026-02-03,08:18,Dr. Moore,General,Fever,1487,67
+337,2025-10-04,22:08,Dr. Jones,Emergency,Injury,608,84
+338,2026-01-04,19:11,Dr. Anderson,General,Fever,301,24
+339,2026-03-15,01:02,Dr. White,Neurology,Seizure,1149,92
+340,2026-02-11,05:50,Dr. Jones,Emergency,Trauma,475,11
+341,2025-10-01,06:08,Dr. Thomas,Orthopedics,Sprain,293,56
+342,2025-10-24,06:08,Dr. Harris,Neurology,Seizure,1425,84
+343,2026-01-23,07:37,Dr. Brown,Cardiology,Hypertension,691,11
+344,2026-03-16,19:59,Dr. Thomas,Orthopedics,Sprain,1440,53
+345,2026-02-28,09:51,Dr. Davis,Cardiology,Heart Failure,405,49
+346,2026-01-29,22:29,Dr. Davis,Cardiology,Arrhythmia,179,19
+347,2026-01-14,16:29,Dr. Brown,Cardiology,Arrhythmia,1394,115
+348,2025-10-05,01:33,Dr. Thomas,Orthopedics,Fracture,983,14
+349,2025-10-03,12:02,Dr. Harris,Neurology,Migraine,75,39
+350,2025-10-15,15:42,Dr. Thomas,Orthopedics,Sprain,1494,19
+351,2026-02-18,05:42,Dr. Thomas,Orthopedics,Back Pain,482,45
+352,2026-03-12,11:29,Dr. Taylor,Pediatrics,Vaccination,247,81
+353,2025-12-01,03:20,Dr. Taylor,Pediatrics,Flu,120,74
+354,2025-12-13,17:40,Dr. Taylor,Pediatrics,Cold,1038,99
+355,2025-11-11,13:29,Dr. Jones,Emergency,Trauma,1047,45
+356,2025-10-19,17:11,Dr. Smith,Emergency,High Fever,498,73
+357,2025-11-24,00:40,Dr. Jones,Emergency,Trauma,1417,20
+358,2025-10-12,02:03,Dr. Wilson,Pediatrics,Flu,749,47
+359,2025-12-09,09:13,Dr. Wilson,Pediatrics,Vaccination,988,119
+360,2025-11-23,02:10,Dr. Wilson,Pediatrics,Vaccination,1160,40
+361,2025-11-07,18:52,Dr. Davis,Cardiology,Arrhythmia,211,58
+362,2025-12-13,12:36,Dr. Taylor,Pediatrics,Flu,839,21
+363,2026-03-14,22:00,Dr. Taylor,Pediatrics,Checkup,92,54
+364,2025-12-25,08:44,Dr. Jackson,Orthopedics,Fracture,1307,100
+365,2025-10-16,23:29,Dr. Moore,General,Physical Exam,77,90
+366,2025-12-07,18:30,Dr. Jackson,Orthopedics,Sprain,185,59
+367,2025-12-10,16:53,Dr. Jones,Emergency,Injury,127,115
+368,2026-03-10,23:06,Dr. Smith,Emergency,Injury,509,17
+369,2026-03-10,12:10,Dr. Taylor,Pediatrics,Checkup,747,57
+370,2026-01-21,05:58,Dr. Smith,Emergency,Trauma,291,55
+371,2025-10-30,21:46,Dr. White,Neurology,Seizure,848,72
+372,2025-10-17,15:27,Dr. Thomas,Orthopedics,Sprain,1316,50
+373,2026-03-29,01:12,Dr. Brown,Cardiology,Hypertension,110,113
+374,2025-10-22,09:42,Dr. Smith,Emergency,High Fever,524,13
+375,2025-10-15,02:00,Dr. Smith,Emergency,Injury,1147,99
+376,2026-01-19,08:59,Dr. Harris,Neurology,Migraine,376,97
+377,2025-10-02,15:45,Dr. Anderson,General,Headache,800,87
+378,2025-11-24,02:41,Dr. Thomas,Orthopedics,Fracture,503,25
+379,2025-10-21,01:15,Dr. Davis,Cardiology,Arrhythmia,272,89
+380,2025-10-28,11:54,Dr. Davis,Cardiology,Hypertension,1244,87
+381,2025-10-26,07:56,Dr. Taylor,Pediatrics,Flu,797,28
+382,2025-10-08,22:11,Dr. Davis,Cardiology,Arrhythmia,1059,119
+383,2026-02-28,07:59,Dr. Harris,Neurology,Seizure,293,98
+384,2025-10-07,15:02,Dr. Wilson,Pediatrics,Checkup,1310,84
+385,2026-03-29,00:49,Dr. White,Neurology,Seizure,1277,106
+386,2025-11-22,19:43,Dr. Taylor,Pediatrics,Cold,192,53
+387,2026-03-13,17:10,Dr. Taylor,Pediatrics,Cold,467,98
+388,2026-03-17,16:11,Dr. Davis,Cardiology,Hypertension,1397,118
+389,2025-10-07,07:15,Dr. Jackson,Orthopedics,Back Pain,1074,63
+390,2025-10-11,03:46,Dr. Moore,General,Headache,855,50
+391,2026-03-14,13:20,Dr. Wilson,Pediatrics,Vaccination,211,34
+392,2026-01-01,15:20,Dr. White,Neurology,Seizure,500,97
+393,2025-11-27,09:19,Dr. Smith,Emergency,Injury,834,26
+394,2025-11-04,00:36,Dr. Jackson,Orthopedics,Sprain,170,27
+395,2026-02-24,04:22,Dr. Harris,Neurology,Migraine,734,14
+396,2025-12-12,12:50,Dr. Taylor,Pediatrics,Cold,1192,71
+397,2026-01-28,16:27,Dr. Moore,General,Physical Exam,821,107
+398,2026-03-04,20:33,Dr. Taylor,Pediatrics,Cold,1007,93
+399,2025-12-08,19:50,Dr. Wilson,Pediatrics,Vaccination,644,97
+400,2025-10-30,23:31,Dr. Taylor,Pediatrics,Checkup,714,36
+401,2025-12-29,17:21,Dr. Harris,Neurology,Dizziness,1254,38
+402,2025-12-26,21:28,Dr. Anderson,General,Headache,1198,111
+403,2026-02-27,12:31,Dr. Wilson,Pediatrics,Checkup,1400,46
+404,2025-10-27,23:15,Dr. White,Neurology,Migraine,657,117
+405,2026-01-01,08:14,Dr. Jones,Emergency,Chest Pain,949,99
+406,2025-12-15,06:32,Dr. Davis,Cardiology,Arrhythmia,1533,65
+407,2025-12-24,23:15,Dr. Moore,General,Fever,1379,40
+408,2026-03-01,17:50,Dr. Jackson,Orthopedics,Fracture,1185,66
+409,2025-11-18,07:23,Dr. Taylor,Pediatrics,Vaccination,861,58
+410,2026-03-20,20:04,Dr. White,Neurology,Dizziness,609,17
+411,2026-01-21,00:57,Dr. Smith,Emergency,Chest Pain,447,47
+412,2025-10-21,10:05,Dr. Thomas,Orthopedics,Sprain,953,46
+413,2026-03-22,20:41,Dr. Jackson,Orthopedics,Back Pain,80,62
+414,2025-10-10,19:41,Dr. White,Neurology,Seizure,637,100
+415,2025-11-30,10:31,Dr. Wilson,Pediatrics,Cold,1128,92
+416,2026-03-15,19:27,Dr. Thomas,Orthopedics,Sprain,408,28
+417,2026-01-24,05:57,Dr. Smith,Emergency,High Fever,547,105
+418,2025-12-21,00:00,Dr. Jackson,Orthopedics,Sprain,279,83
+419,2026-03-13,03:55,Dr. Anderson,General,Fever,1318,43
+420,2026-01-11,03:28,Dr. Thomas,Orthopedics,Back Pain,1039,119
+421,2026-02-25,13:59,Dr. Davis,Cardiology,Heart Failure,1354,116
+422,2026-02-27,01:56,Dr. Brown,Cardiology,Hypertension,1376,62
+423,2026-03-08,10:11,Dr. Wilson,Pediatrics,Cold,1032,115
+424,2025-11-01,07:49,Dr. Harris,Neurology,Seizure,1060,41
+425,2025-11-17,08:24,Dr. Davis,Cardiology,Heart Failure,869,74
+426,2026-02-08,10:54,Dr. Davis,Cardiology,Heart Failure,686,74
+427,2026-02-11,11:57,Dr. Wilson,Pediatrics,Flu,827,95
+428,2025-12-07,01:14,Dr. Thomas,Orthopedics,Fracture,1361,37
+429,2025-12-27,13:40,Dr. Brown,Cardiology,Heart Failure,541,42
+430,2026-01-06,19:44,Dr. Thomas,Orthopedics,Back Pain,1146,112
+431,2025-10-08,05:23,Dr. Moore,General,Physical Exam,390,47
+432,2026-01-21,07:41,Dr. Wilson,Pediatrics,Cold,162,112
+433,2025-10-08,03:25,Dr. Anderson,General,Physical Exam,1159,41
+434,2025-10-14,02:17,Dr. Davis,Cardiology,Arrhythmia,349,45
+435,2026-03-02,07:46,Dr. Smith,Emergency,Injury,1382,66
+436,2026-03-28,10:15,Dr. Smith,Emergency,Injury,1242,62
+437,2025-12-12,10:43,Dr. Taylor,Pediatrics,Cold,645,27
+438,2025-11-16,05:54,Dr. Moore,General,Physical Exam,554,58
+439,2026-02-12,00:26,Dr. Harris,Neurology,Seizure,823,30
+440,2025-10-08,21:48,Dr. Brown,Cardiology,Arrhythmia,755,11
+441,2025-12-25,01:36,Dr. Anderson,General,Fever,110,49
+442,2026-01-22,23:32,Dr. Harris,Neurology,Dizziness,820,86
+443,2026-01-02,07:57,Dr. Anderson,General,Physical Exam,239,104
+444,2025-10-17,10:26,Dr. Thomas,Orthopedics,Sprain,1136,84
+445,2025-10-09,17:27,Dr. Brown,Cardiology,Heart Failure,195,107
+446,2025-11-15,20:06,Dr. Smith,Emergency,High Fever,64,30
+447,2025-11-13,16:10,Dr. Harris,Neurology,Dizziness,932,21
+448,2025-10-01,02:13,Dr. Wilson,Pediatrics,Flu,1044,48
+449,2025-10-12,14:05,Dr. Davis,Cardiology,Arrhythmia,1026,42
+450,2025-12-10,20:42,Dr. Taylor,Pediatrics,Vaccination,1253,17
+451,2025-12-12,06:24,Dr. Wilson,Pediatrics,Flu,1038,53
+452,2025-11-20,08:21,Dr. White,Neurology,Seizure,952,88
+453,2026-02-10,07:52,Dr. Thomas,Orthopedics,Back Pain,1457,45
+454,2026-01-21,17:30,Dr. Moore,General,Headache,589,40
+455,2025-12-27,09:34,Dr. Brown,Cardiology,Hypertension,542,36
+456,2025-10-02,00:32,Dr. Jones,Emergency,Chest Pain,213,28
+457,2026-01-26,15:50,Dr. Thomas,Orthopedics,Sprain,164,118
+458,2026-01-25,00:46,Dr. Jones,Emergency,Chest Pain,1543,39
+459,2026-01-29,01:45,Dr. Smith,Emergency,Chest Pain,532,13
+460,2025-12-23,19:49,Dr. Thomas,Orthopedics,Fracture,1075,29
+461,2025-12-07,12:25,Dr. Jones,Emergency,Trauma,755,114
+462,2026-02-19,00:45,Dr. Jones,Emergency,Trauma,1001,43
+463,2025-12-11,01:12,Dr. Taylor,Pediatrics,Flu,257,69
+464,2025-12-28,05:43,Dr. Smith,Emergency,Chest Pain,480,61
+465,2026-01-09,10:02,Dr. Brown,Cardiology,Hypertension,399,44
+466,2026-02-09,09:14,Dr. Moore,General,Fever,905,49
+467,2025-11-02,18:57,Dr. Jones,Emergency,High Fever,606,83
+468,2026-01-25,05:12,Dr. Taylor,Pediatrics,Cold,517,31
+469,2026-02-15,16:03,Dr. Smith,Emergency,High Fever,1178,70
+470,2026-01-08,14:09,Dr. Taylor,Pediatrics,Checkup,122,60
+471,2025-10-06,20:04,Dr. Wilson,Pediatrics,Flu,1516,107
+472,2026-02-04,13:01,Dr. Harris,Neurology,Dizziness,355,78
+473,2025-12-26,09:52,Dr. Wilson,Pediatrics,Vaccination,174,80
+474,2025-10-20,22:06,Dr. Brown,Cardiology,Hypertension,813,28
+475,2026-01-30,08:51,Dr. Taylor,Pediatrics,Vaccination,849,105
+476,2025-11-22,12:02,Dr. Davis,Cardiology,Arrhythmia,1241,84
+477,2025-11-21,07:44,Dr. Anderson,General,Headache,287,81
+478,2025-11-14,01:47,Dr. Moore,General,Physical Exam,728,71
+479,2025-12-04,09:46,Dr. Moore,General,Fever,285,97
+480,2025-11-12,09:27,Dr. Jackson,Orthopedics,Sprain,1103,104
+481,2025-11-30,09:23,Dr. Smith,Emergency,Chest Pain,1060,33
+482,2025-12-05,03:48,Dr. Anderson,General,Fever,1482,39
+483,2026-01-10,08:47,Dr. Jackson,Orthopedics,Fracture,968,85
+484,2026-03-20,15:24,Dr. Jackson,Orthopedics,Sprain,55,54
+485,2025-12-04,23:13,Dr. Brown,Cardiology,Heart Failure,1254,102
+486,2025-10-07,09:32,Dr. Wilson,Pediatrics,Vaccination,1096,81
+487,2026-02-21,08:58,Dr. Harris,Neurology,Dizziness,1251,23
+488,2025-10-27,20:15,Dr. Anderson,General,Headache,992,96
+489,2026-01-08,22:28,Dr. Thomas,Orthopedics,Sprain,1027,52
+490,2026-03-15,04:59,Dr. Taylor,Pediatrics,Vaccination,504,45
+491,2026-03-13,13:40,Dr. Jones,Emergency,Injury,620,115
+492,2026-03-19,06:06,Dr. Wilson,Pediatrics,Vaccination,120,30
+493,2026-02-21,12:48,Dr. Moore,General,Headache,499,27
+494,2025-12-17,07:45,Dr. Moore,General,Fever,1021,56
+495,2025-10-30,15:46,Dr. Brown,Cardiology,Arrhythmia,346,40
+496,2025-11-25,19:28,Dr. Thomas,Orthopedics,Fracture,1271,64
+497,2026-03-08,21:13,Dr. Moore,General,Physical Exam,564,31
+498,2026-02-22,06:07,Dr. Smith,Emergency,High Fever,726,43
+499,2025-12-14,23:17,Dr. Harris,Neurology,Migraine,624,70
+500,2026-02-18,05:49,Dr. Taylor,Pediatrics,Vaccination,1050,26
+501,2026-02-10,23:49,Dr. Davis,Cardiology,Arrhythmia,475,101
+502,2026-01-10,15:58,Dr. Jackson,Orthopedics,Fracture,623,102
+503,2026-03-19,11:41,Dr. Smith,Emergency,Chest Pain,281,98
+504,2025-12-18,15:42,Dr. Taylor,Pediatrics,Flu,930,32
+505,2026-03-04,02:05,Dr. Thomas,Orthopedics,Back Pain,1176,27
+506,2026-02-06,02:26,Dr. Brown,Cardiology,Heart Failure,1349,70
+507,2025-12-26,22:34,Dr. Davis,Cardiology,Hypertension,1237,57
+508,2025-11-23,08:02,Dr. Davis,Cardiology,Hypertension,1093,26
+509,2025-11-03,11:22,Dr. Thomas,Orthopedics,Fracture,1437,109
+510,2025-10-14,05:48,Dr. Brown,Cardiology,Arrhythmia,322,72
+511,2025-10-03,07:22,Dr. Thomas,Orthopedics,Sprain,246,109
+512,2025-12-12,00:29,Dr. Wilson,Pediatrics,Cold,436,23
+513,2026-03-16,22:56,Dr. Harris,Neurology,Migraine,334,99
+514,2026-01-18,16:51,Dr. Harris,Neurology,Migraine,1404,54
+515,2026-01-27,20:05,Dr. Brown,Cardiology,Arrhythmia,813,80
+516,2025-11-09,16:15,Dr. Taylor,Pediatrics,Vaccination,830,44
+517,2025-12-09,07:13,Dr. Wilson,Pediatrics,Cold,908,27
+518,2026-02-08,16:54,Dr. Moore,General,Fever,121,96
+519,2026-02-22,19:20,Dr. Wilson,Pediatrics,Cold,328,83
+520,2025-12-29,06:57,Dr. White,Neurology,Dizziness,739,44
+521,2026-02-09,03:37,Dr. Harris,Neurology,Seizure,148,113
+522,2026-01-25,08:59,Dr. White,Neurology,Seizure,289,56
+523,2025-10-08,01:07,Dr. Anderson,General,Headache,1031,60
+524,2026-02-17,22:48,Dr. Harris,Neurology,Dizziness,799,75
+525,2025-12-09,12:07,Dr. Moore,General,Fever,202,61
+526,2026-02-16,21:08,Dr. White,Neurology,Dizziness,1038,79
+527,2025-11-19,23:55,Dr. Taylor,Pediatrics,Cold,646,42
+528,2026-02-01,05:34,Dr. Thomas,Orthopedics,Back Pain,334,50
+529,2025-10-01,06:12,Dr. Harris,Neurology,Dizziness,865,119
+530,2026-03-09,14:11,Dr. Jones,Emergency,High Fever,451,44
+531,2025-11-19,09:08,Dr. Taylor,Pediatrics,Checkup,1381,50
+532,2025-10-26,05:37,Dr. Harris,Neurology,Seizure,406,68
+533,2026-02-07,22:20,Dr. Harris,Neurology,Seizure,1330,28
+534,2025-10-04,06:49,Dr. Smith,Emergency,High Fever,1229,100
+535,2026-03-08,17:17,Dr. Smith,Emergency,Injury,136,102
+536,2025-12-30,21:51,Dr. Harris,Neurology,Seizure,909,106
+537,2026-01-30,17:43,Dr. Smith,Emergency,High Fever,182,85
+538,2026-02-14,01:19,Dr. Brown,Cardiology,Heart Failure,1119,86
+539,2025-12-18,18:04,Dr. Anderson,General,Headache,457,63
+540,2025-12-12,22:54,Dr. Jones,Emergency,Chest Pain,222,89
+541,2025-12-01,12:33,Dr. Wilson,Pediatrics,Checkup,1104,115
+542,2026-02-01,19:33,Dr. Harris,Neurology,Dizziness,818,73
+543,2025-10-17,09:29,Dr. Harris,Neurology,Dizziness,1237,29
+544,2025-11-25,06:38,Dr. White,Neurology,Dizziness,558,76
+545,2026-01-25,06:10,Dr. Wilson,Pediatrics,Flu,1093,114
+546,2025-12-26,01:29,Dr. Thomas,Orthopedics,Fracture,805,46
+547,2025-10-20,10:14,Dr. Anderson,General,Headache,744,51
+548,2026-02-20,04:38,Dr. Moore,General,Headache,340,91
+549,2025-11-03,18:15,Dr. Davis,Cardiology,Heart Failure,84,37
+550,2025-12-14,17:21,Dr. White,Neurology,Dizziness,1395,100
+551,2026-01-13,17:43,Dr. White,Neurology,Migraine,1077,39
+552,2025-11-24,08:20,Dr. Taylor,Pediatrics,Vaccination,107,89
+553,2026-01-07,17:11,Dr. Smith,Emergency,Injury,407,31
+554,2026-01-07,05:04,Dr. Jackson,Orthopedics,Back Pain,140,24
+555,2025-11-19,23:53,Dr. Brown,Cardiology,Hypertension,1099,69
+556,2026-01-29,04:43,Dr. Davis,Cardiology,Heart Failure,707,37
+557,2026-02-23,15:21,Dr. Jones,Emergency,Trauma,1329,25
+558,2026-02-18,17:28,Dr. Jackson,Orthopedics,Fracture,499,118
+559,2025-12-11,20:47,Dr. Wilson,Pediatrics,Vaccination,836,103
+560,2026-02-01,22:06,Dr. Smith,Emergency,High Fever,1407,39
+561,2025-12-05,18:02,Dr. Jackson,Orthopedics,Back Pain,1401,71
+562,2025-12-23,10:56,Dr. Thomas,Orthopedics,Fracture,281,55
+563,2025-12-30,18:18,Dr. Thomas,Orthopedics,Fracture,1206,86
+564,2025-12-15,13:57,Dr. Jackson,Orthopedics,Sprain,498,92
+565,2025-11-07,01:19,Dr. Moore,General,Headache,618,76
+566,2025-12-10,10:17,Dr. Thomas,Orthopedics,Sprain,541,13
+567,2026-03-17,01:27,Dr. Wilson,Pediatrics,Vaccination,706,43
+568,2025-10-11,05:53,Dr. Taylor,Pediatrics,Vaccination,1231,79
+569,2025-10-11,16:18,Dr. Thomas,Orthopedics,Fracture,830,46
+570,2025-10-29,20:22,Dr. Taylor,Pediatrics,Vaccination,910,18
+571,2026-01-03,20:58,Dr. Harris,Neurology,Seizure,433,55
+572,2026-01-05,11:10,Dr. Anderson,General,Physical Exam,973,55
+573,2025-10-05,17:20,Dr. White,Neurology,Dizziness,1189,66
+574,2025-12-28,01:42,Dr. Moore,General,Headache,897,54
+575,2026-03-04,18:03,Dr. White,Neurology,Migraine,133,79
+576,2026-01-16,23:20,Dr. Anderson,General,Physical Exam,283,104
+577,2025-11-27,22:53,Dr. Thomas,Orthopedics,Back Pain,1353,21
+578,2025-11-11,01:25,Dr. Anderson,General,Fever,317,79
+579,2025-11-22,07:14,Dr. Smith,Emergency,Injury,1006,19
+580,2026-02-19,16:48,Dr. Jackson,Orthopedics,Back Pain,1279,108
+581,2025-12-02,07:14,Dr. Jones,Emergency,Injury,238,69
+582,2026-01-05,12:04,Dr. Harris,Neurology,Migraine,1520,113
+583,2025-10-20,08:31,Dr. Anderson,General,Headache,1072,54
+584,2026-02-21,20:49,Dr. Moore,General,Fever,378,11
+585,2026-01-26,19:01,Dr. Wilson,Pediatrics,Vaccination,412,50
+586,2025-12-29,07:56,Dr. Jackson,Orthopedics,Fracture,619,65
+587,2026-01-03,17:41,Dr. Davis,Cardiology,Arrhythmia,875,55
+588,2026-02-21,06:21,Dr. White,Neurology,Seizure,611,47
+589,2025-10-17,20:16,Dr. Davis,Cardiology,Hypertension,648,93
+590,2025-12-21,17:04,Dr. Moore,General,Fever,1300,108
+591,2025-12-31,11:29,Dr. Wilson,Pediatrics,Cold,1286,116
+592,2025-12-25,22:55,Dr. Thomas,Orthopedics,Back Pain,1518,11
+593,2025-12-23,14:09,Dr. Moore,General,Physical Exam,1378,49
+594,2026-02-22,00:22,Dr. Wilson,Pediatrics,Vaccination,264,114
+595,2026-03-17,02:37,Dr. Wilson,Pediatrics,Vaccination,1442,68
+596,2025-12-20,01:24,Dr. Brown,Cardiology,Arrhythmia,499,72
+597,2026-01-06,12:38,Dr. Jones,Emergency,Injury,1359,104
+598,2025-12-19,21:36,Dr. Jackson,Orthopedics,Sprain,1450,90
+599,2026-01-18,12:35,Dr. Smith,Emergency,High Fever,1500,75
+600,2026-03-03,17:35,Dr. White,Neurology,Migraine,1470,19
+601,2026-02-16,08:50,Dr. White,Neurology,Dizziness,1186,33
+602,2026-01-15,19:17,Dr. Harris,Neurology,Seizure,1075,113
+603,2025-11-05,05:58,Dr. Smith,Emergency,Trauma,479,45
+604,2025-12-13,20:37,Dr. White,Neurology,Dizziness,1466,116
+605,2025-12-10,07:44,Dr. Moore,General,Fever,1063,97
+606,2026-03-07,08:16,Dr. White,Neurology,Migraine,1156,114
+607,2025-12-27,01:25,Dr. Taylor,Pediatrics,Vaccination,598,48
+608,2026-03-10,02:04,Dr. Taylor,Pediatrics,Checkup,1108,21
+609,2026-01-04,20:46,Dr. Harris,Neurology,Seizure,476,15
+610,2026-01-31,06:13,Dr. Jackson,Orthopedics,Back Pain,261,48
+611,2025-12-22,09:09,Dr. Moore,General,Headache,1288,86
+612,2025-12-24,12:47,Dr. Thomas,Orthopedics,Sprain,1423,105
+613,2026-01-08,11:20,Dr. Brown,Cardiology,Arrhythmia,339,23
+614,2026-02-02,14:53,Dr. White,Neurology,Dizziness,185,39
+615,2026-03-01,13:44,Dr. Thomas,Orthopedics,Back Pain,948,102
+616,2025-10-20,04:18,Dr. Jackson,Orthopedics,Fracture,112,107
+617,2026-02-15,14:19,Dr. Anderson,General,Headache,738,74
+618,2025-11-09,02:09,Dr. Jackson,Orthopedics,Fracture,505,46
+619,2026-01-30,11:22,Dr. Jackson,Orthopedics,Back Pain,472,11
+620,2025-10-10,19:16,Dr. Anderson,General,Physical Exam,530,87
+621,2026-01-14,14:32,Dr. Anderson,General,Physical Exam,751,24
+622,2026-03-28,23:15,Dr. Jackson,Orthopedics,Fracture,906,20
+623,2026-02-15,23:39,Dr. Jackson,Orthopedics,Sprain,264,85
+624,2025-12-08,18:27,Dr. Jones,Emergency,Trauma,789,42
+625,2026-01-27,08:49,Dr. Smith,Emergency,Trauma,412,17
+626,2025-10-06,21:36,Dr. Moore,General,Headache,411,31
+627,2026-03-19,15:50,Dr. Wilson,Pediatrics,Vaccination,50,83
+628,2025-12-22,15:07,Dr. Jones,Emergency,Injury,872,118
+629,2025-12-10,11:56,Dr. Davis,Cardiology,Arrhythmia,117,66
+630,2026-02-12,03:36,Dr. Jackson,Orthopedics,Fracture,177,44
+631,2026-03-17,15:28,Dr. Davis,Cardiology,Arrhythmia,303,106
+632,2025-12-17,13:43,Dr. Anderson,General,Fever,1496,26
+633,2026-01-25,19:24,Dr. Moore,General,Physical Exam,692,98
+634,2025-12-04,20:28,Dr. Jackson,Orthopedics,Back Pain,726,80
+635,2025-12-26,15:20,Dr. White,Neurology,Seizure,1078,67
+636,2025-12-12,06:48,Dr. Smith,Emergency,High Fever,296,19
+637,2025-11-01,08:06,Dr. White,Neurology,Migraine,756,119
+638,2026-03-03,17:54,Dr. White,Neurology,Migraine,332,18
+639,2026-01-07,00:44,Dr. Moore,General,Physical Exam,1162,16
+640,2026-01-31,20:00,Dr. Taylor,Pediatrics,Cold,115,14
+641,2025-10-24,04:07,Dr. Anderson,General,Physical Exam,1437,112
+642,2025-12-23,02:32,Dr. Smith,Emergency,Injury,811,43
+643,2026-02-19,05:16,Dr. Thomas,Orthopedics,Sprain,110,75
+644,2026-02-23,00:36,Dr. Moore,General,Headache,1116,118
+645,2026-01-15,07:00,Dr. Jones,Emergency,Trauma,204,66
+646,2026-03-29,07:58,Dr. Davis,Cardiology,Arrhythmia,411,102
+647,2026-03-17,22:26,Dr. Brown,Cardiology,Arrhythmia,222,118
+648,2026-03-23,20:30,Dr. Thomas,Orthopedics,Back Pain,608,21
+649,2025-11-07,02:46,Dr. Jackson,Orthopedics,Fracture,1106,65
+650,2026-03-23,19:10,Dr. Anderson,General,Physical Exam,113,101
+651,2025-11-18,04:53,Dr. Brown,Cardiology,Heart Failure,428,76
+652,2026-02-05,10:40,Dr. Wilson,Pediatrics,Checkup,557,110
+653,2025-10-13,01:22,Dr. Jones,Emergency,Injury,82,83
+654,2026-01-18,17:07,Dr. Anderson,General,Headache,1215,114
+655,2026-02-23,12:54,Dr. Moore,General,Fever,294,42
+656,2026-02-27,07:09,Dr. Moore,General,Headache,1244,86
+657,2025-12-12,08:21,Dr. Davis,Cardiology,Hypertension,831,30
+658,2025-11-30,22:41,Dr. Brown,Cardiology,Hypertension,578,40
+659,2026-02-19,13:21,Dr. Thomas,Orthopedics,Sprain,571,24
+660,2026-03-20,09:12,Dr. Harris,Neurology,Seizure,264,61
+661,2026-02-28,10:08,Dr. White,Neurology,Seizure,1445,97
+662,2025-12-22,18:08,Dr. Moore,General,Fever,727,113
+663,2025-10-24,05:52,Dr. Smith,Emergency,Injury,632,95
+664,2025-10-22,04:51,Dr. Davis,Cardiology,Hypertension,663,119
+665,2025-12-11,08:21,Dr. Jones,Emergency,Chest Pain,545,111
+666,2026-02-10,11:20,Dr. Brown,Cardiology,Heart Failure,934,57
+667,2025-10-20,09:49,Dr. Jones,Emergency,High Fever,618,28
+668,2025-12-09,10:05,Dr. Jackson,Orthopedics,Back Pain,880,60
+669,2026-02-09,11:16,Dr. Smith,Emergency,High Fever,673,50
+670,2026-01-13,19:35,Dr. Taylor,Pediatrics,Cold,307,40
+671,2026-01-10,05:07,Dr. Thomas,Orthopedics,Back Pain,1222,67
+672,2026-01-27,22:58,Dr. Thomas,Orthopedics,Back Pain,1220,84
+673,2026-01-17,20:00,Dr. Taylor,Pediatrics,Flu,826,105
+674,2025-09-29,12:25,Dr. White,Neurology,Seizure,353,55
+675,2026-03-07,17:16,Dr. Anderson,General,Physical Exam,638,107
+676,2026-02-22,16:25,Dr. Davis,Cardiology,Hypertension,1227,53
+677,2025-10-21,12:05,Dr. Harris,Neurology,Migraine,269,54
+678,2025-11-07,06:56,Dr. Anderson,General,Fever,807,30
+679,2025-10-04,07:11,Dr. Wilson,Pediatrics,Cold,1187,45
+680,2025-10-28,18:26,Dr. Davis,Cardiology,Hypertension,846,72
+681,2025-11-14,07:26,Dr. White,Neurology,Dizziness,428,10
+682,2026-03-27,07:29,Dr. Wilson,Pediatrics,Vaccination,626,30
+683,2025-11-06,17:44,Dr. Anderson,General,Physical Exam,469,24
+684,2026-02-09,02:00,Dr. Jackson,Orthopedics,Back Pain,1090,11
+685,2026-01-20,02:06,Dr. Smith,Emergency,Injury,364,56
+686,2026-01-01,04:27,Dr. Jones,Emergency,Trauma,255,85
+687,2025-12-12,16:29,Dr. Harris,Neurology,Dizziness,775,88
+688,2025-11-17,16:53,Dr. Smith,Emergency,Injury,1253,89
+689,2026-02-21,12:51,Dr. Anderson,General,Headache,1441,18
+690,2025-11-30,08:43,Dr. Moore,General,Physical Exam,715,106
+691,2025-10-02,12:22,Dr. White,Neurology,Seizure,1304,47
+692,2026-03-02,21:37,Dr. Jackson,Orthopedics,Back Pain,127,37
+693,2025-11-24,20:47,Dr. Jones,Emergency,Injury,641,48
+694,2025-12-11,06:59,Dr. Jackson,Orthopedics,Back Pain,873,19
+695,2026-01-28,22:42,Dr. Wilson,Pediatrics,Vaccination,929,62
+696,2026-01-22,10:46,Dr. Brown,Cardiology,Arrhythmia,309,27
+697,2026-03-15,03:23,Dr. Wilson,Pediatrics,Vaccination,728,109
+698,2025-10-05,12:47,Dr. Thomas,Orthopedics,Sprain,949,14
+699,2025-10-11,15:35,Dr. Moore,General,Physical Exam,1321,102
+700,2026-03-08,04:06,Dr. Moore,General,Fever,449,45
+701,2026-01-07,13:10,Dr. Smith,Emergency,High Fever,978,42
+702,2025-12-07,19:41,Dr. Anderson,General,Headache,1221,113
+703,2025-12-08,02:29,Dr. Anderson,General,Fever,1087,61
+704,2026-02-27,07:42,Dr. Harris,Neurology,Dizziness,1357,83
+705,2026-01-14,19:51,Dr. Smith,Emergency,High Fever,201,29
+706,2026-03-07,02:06,Dr. Jones,Emergency,Chest Pain,380,66
+707,2025-12-02,06:25,Dr. Brown,Cardiology,Heart Failure,558,59
+708,2025-12-10,19:38,Dr. Smith,Emergency,High Fever,1463,65
+709,2026-01-12,05:18,Dr. Jones,Emergency,High Fever,665,61
+710,2026-02-17,23:54,Dr. Smith,Emergency,Chest Pain,1392,100
+711,2025-12-01,09:18,Dr. Wilson,Pediatrics,Checkup,1085,106
+712,2026-03-12,09:57,Dr. Brown,Cardiology,Hypertension,820,35
+713,2025-10-30,00:13,Dr. Thomas,Orthopedics,Sprain,501,118
+714,2025-11-26,02:51,Dr. Jackson,Orthopedics,Back Pain,592,67
+715,2026-01-12,02:42,Dr. Moore,General,Headache,141,65
+716,2026-01-02,14:19,Dr. Anderson,General,Headache,1510,45
+717,2025-12-03,14:36,Dr. Brown,Cardiology,Heart Failure,1385,21
+718,2026-02-27,17:55,Dr. Taylor,Pediatrics,Cold,475,68
+719,2026-03-21,10:03,Dr. Brown,Cardiology,Hypertension,1405,117
+720,2025-11-14,06:37,Dr. Jones,Emergency,Injury,334,57
+721,2025-10-17,07:29,Dr. Harris,Neurology,Migraine,1050,16
+722,2026-02-01,06:59,Dr. Harris,Neurology,Dizziness,901,115
+723,2025-12-27,21:43,Dr. Brown,Cardiology,Hypertension,145,68
+724,2025-12-27,23:28,Dr. Wilson,Pediatrics,Checkup,1341,99
+725,2025-11-23,03:08,Dr. Thomas,Orthopedics,Back Pain,1425,14
+726,2026-01-07,10:44,Dr. Moore,General,Fever,1017,38
+727,2026-01-07,14:17,Dr. Davis,Cardiology,Hypertension,1012,17
+728,2026-03-19,21:37,Dr. White,Neurology,Dizziness,338,69
+729,2026-02-05,07:42,Dr. Thomas,Orthopedics,Back Pain,1223,48
+730,2025-10-11,16:59,Dr. Jones,Emergency,Trauma,864,105
+731,2026-01-05,20:27,Dr. Anderson,General,Physical Exam,1367,97
+732,2025-10-02,11:24,Dr. Moore,General,Physical Exam,450,51
+733,2025-11-18,03:12,Dr. White,Neurology,Dizziness,1086,73
+734,2026-02-06,00:37,Dr. Taylor,Pediatrics,Vaccination,1297,80
+735,2026-02-08,06:56,Dr. White,Neurology,Dizziness,752,21
+736,2026-03-08,12:48,Dr. Brown,Cardiology,Heart Failure,1460,94
+737,2025-11-10,00:29,Dr. White,Neurology,Seizure,945,10
+738,2025-11-05,19:49,Dr. Smith,Emergency,Trauma,973,74
+739,2026-03-07,13:37,Dr. Jackson,Orthopedics,Fracture,1382,32
+740,2025-11-11,12:05,Dr. Jackson,Orthopedics,Back Pain,763,89
+741,2026-03-19,01:55,Dr. Harris,Neurology,Seizure,1368,33
+742,2025-10-12,08:30,Dr. Taylor,Pediatrics,Flu,399,96
+743,2025-10-11,02:29,Dr. Davis,Cardiology,Hypertension,749,111
+744,2026-02-24,21:46,Dr. White,Neurology,Seizure,1177,25
+745,2026-03-26,11:12,Dr. Jackson,Orthopedics,Back Pain,586,89
+746,2026-01-12,21:49,Dr. Davis,Cardiology,Heart Failure,225,31
+747,2026-01-03,16:46,Dr. White,Neurology,Migraine,1029,35
+748,2025-11-02,13:39,Dr. Moore,General,Headache,486,41
+749,2026-01-28,23:50,Dr. White,Neurology,Dizziness,1323,74
+750,2026-02-21,02:59,Dr. Taylor,Pediatrics,Vaccination,904,103
+751,2026-02-23,04:20,Dr. Wilson,Pediatrics,Cold,790,80
+752,2025-12-20,04:54,Dr. Jackson,Orthopedics,Sprain,76,40
+753,2026-02-16,03:56,Dr. Thomas,Orthopedics,Sprain,410,74
+754,2025-12-31,19:42,Dr. Davis,Cardiology,Arrhythmia,1503,103
+755,2026-02-10,01:55,Dr. White,Neurology,Dizziness,362,72
+756,2026-03-18,15:38,Dr. Smith,Emergency,High Fever,1464,117
+757,2025-11-11,02:08,Dr. Anderson,General,Fever,1527,58
+758,2025-11-24,15:42,Dr. Brown,Cardiology,Heart Failure,176,108
+759,2025-11-01,22:30,Dr. White,Neurology,Dizziness,599,48
+760,2025-10-21,19:55,Dr. White,Neurology,Seizure,836,91
+761,2026-01-18,14:26,Dr. Taylor,Pediatrics,Flu,103,107
+762,2026-01-18,07:36,Dr. Thomas,Orthopedics,Fracture,1035,70
+763,2026-03-20,07:34,Dr. Wilson,Pediatrics,Cold,841,23
+764,2025-12-03,13:49,Dr. Thomas,Orthopedics,Fracture,1284,25
+765,2026-03-13,01:42,Dr. Smith,Emergency,Injury,193,99
+766,2026-01-01,16:41,Dr. Brown,Cardiology,Hypertension,780,48
+767,2025-11-28,10:24,Dr. White,Neurology,Dizziness,167,100
+768,2025-12-02,18:34,Dr. Brown,Cardiology,Heart Failure,959,99
+769,2026-02-23,05:46,Dr. Thomas,Orthopedics,Sprain,448,55
+770,2025-12-02,06:52,Dr. Jackson,Orthopedics,Back Pain,1387,69
+771,2026-02-18,15:02,Dr. Anderson,General,Headache,917,35
+772,2025-12-01,00:40,Dr. White,Neurology,Dizziness,838,85
+773,2026-03-18,01:52,Dr. Jones,Emergency,Trauma,1436,12
+774,2026-03-16,14:00,Dr. Smith,Emergency,Trauma,1401,21
+775,2026-02-12,12:11,Dr. Thomas,Orthopedics,Back Pain,373,58
+776,2026-02-12,03:00,Dr. Moore,General,Physical Exam,441,60
+777,2025-12-03,08:58,Dr. Smith,Emergency,Chest Pain,452,14
+778,2026-03-21,22:00,Dr. Moore,General,Headache,720,110
+779,2025-10-14,08:56,Dr. White,Neurology,Dizziness,1235,108
+780,2026-03-14,17:24,Dr. Jones,Emergency,Injury,927,89
+781,2026-03-27,21:46,Dr. Jones,Emergency,Injury,1490,107
+782,2025-11-21,06:55,Dr. Davis,Cardiology,Arrhythmia,166,84
+783,2025-12-06,00:16,Dr. Anderson,General,Physical Exam,85,35
+784,2025-10-23,13:55,Dr. Smith,Emergency,High Fever,1267,60
+785,2026-02-26,13:56,Dr. Taylor,Pediatrics,Checkup,1300,23
+786,2026-02-07,14:10,Dr. White,Neurology,Dizziness,340,37
+787,2025-10-06,17:35,Dr. Anderson,General,Headache,696,36
+788,2026-02-11,05:21,Dr. Jackson,Orthopedics,Back Pain,1055,110
+789,2026-01-02,22:07,Dr. Davis,Cardiology,Arrhythmia,370,29
+790,2025-10-17,19:00,Dr. White,Neurology,Seizure,239,29
+791,2025-10-07,18:55,Dr. Harris,Neurology,Dizziness,390,48
+792,2026-01-21,03:06,Dr. Brown,Cardiology,Heart Failure,432,81
+793,2025-10-16,04:32,Dr. Taylor,Pediatrics,Flu,433,60
+794,2025-10-06,16:13,Dr. Brown,Cardiology,Hypertension,301,119
+795,2025-09-30,01:12,Dr. Jones,Emergency,Injury,1125,119
+796,2025-10-22,00:44,Dr. Davis,Cardiology,Heart Failure,1465,31
+797,2026-02-15,04:45,Dr. Anderson,General,Headache,1190,71
+798,2025-12-30,08:51,Dr. Brown,Cardiology,Hypertension,1378,30
+799,2026-01-04,22:34,Dr. Smith,Emergency,Trauma,1234,79
+800,2026-02-25,06:33,Dr. White,Neurology,Seizure,1014,11
+801,2025-11-12,06:58,Dr. Wilson,Pediatrics,Vaccination,171,54
+802,2025-11-13,22:01,Dr. Taylor,Pediatrics,Cold,235,53
+803,2025-10-05,11:46,Dr. Jackson,Orthopedics,Fracture,660,19
+804,2025-12-05,23:01,Dr. Davis,Cardiology,Arrhythmia,341,95
+805,2025-10-05,07:06,Dr. Wilson,Pediatrics,Vaccination,967,96
+806,2025-10-14,06:52,Dr. Thomas,Orthopedics,Back Pain,67,13
+807,2026-02-07,01:03,Dr. Taylor,Pediatrics,Checkup,854,47
+808,2025-12-14,01:09,Dr. Jackson,Orthopedics,Back Pain,306,17
+809,2026-03-16,09:33,Dr. Moore,General,Headache,412,21
+810,2026-02-26,06:27,Dr. Taylor,Pediatrics,Checkup,143,93
+811,2026-03-29,09:04,Dr. Davis,Cardiology,Arrhythmia,434,72
+812,2026-01-10,00:35,Dr. Thomas,Orthopedics,Back Pain,1138,24
+813,2025-12-20,00:25,Dr. Smith,Emergency,Injury,608,46
+814,2025-12-11,12:19,Dr. Anderson,General,Physical Exam,1073,93
+815,2026-03-20,03:47,Dr. Taylor,Pediatrics,Checkup,662,36
+816,2026-02-21,22:32,Dr. Jones,Emergency,Trauma,102,73
+817,2026-03-05,13:21,Dr. Jackson,Orthopedics,Back Pain,1497,41
+818,2025-12-03,08:02,Dr. Moore,General,Physical Exam,456,38
+819,2026-03-16,00:06,Dr. Jackson,Orthopedics,Fracture,806,90
+820,2025-10-06,05:58,Dr. Jones,Emergency,Chest Pain,1148,104
+821,2025-10-13,04:49,Dr. Jones,Emergency,Injury,1370,40
+822,2026-03-28,03:27,Dr. Taylor,Pediatrics,Cold,1223,91
+823,2026-03-16,10:20,Dr. Anderson,General,Physical Exam,845,77
+824,2025-10-03,11:25,Dr. Moore,General,Fever,1042,98
+825,2025-11-09,20:08,Dr. Smith,Emergency,High Fever,1506,82
+826,2025-11-17,09:35,Dr. Taylor,Pediatrics,Flu,1392,80
+827,2026-03-27,09:41,Dr. Wilson,Pediatrics,Flu,238,21
+828,2026-03-18,12:50,Dr. Wilson,Pediatrics,Checkup,702,92
+829,2025-11-06,01:11,Dr. Taylor,Pediatrics,Checkup,490,67
+830,2025-12-11,10:33,Dr. Smith,Emergency,Injury,824,32
+831,2025-10-15,02:43,Dr. Jackson,Orthopedics,Fracture,985,114
+832,2025-11-01,22:44,Dr. Davis,Cardiology,Heart Failure,842,92
+833,2026-02-09,05:37,Dr. Moore,General,Physical Exam,344,18
+834,2025-10-14,00:59,Dr. Anderson,General,Fever,871,99
+835,2025-11-25,09:45,Dr. Harris,Neurology,Dizziness,1009,102
+836,2026-02-10,15:03,Dr. Anderson,General,Headache,486,57
+837,2026-03-03,18:18,Dr. Thomas,Orthopedics,Back Pain,1360,30
+838,2025-10-19,03:29,Dr. Wilson,Pediatrics,Vaccination,441,105
+839,2025-10-31,05:36,Dr. Thomas,Orthopedics,Back Pain,798,83
+840,2025-10-25,12:25,Dr. Jackson,Orthopedics,Sprain,1235,110
+841,2025-11-22,16:01,Dr. Wilson,Pediatrics,Vaccination,344,62
+842,2025-11-02,17:04,Dr. Moore,General,Headache,1392,79
+843,2025-10-15,07:28,Dr. Thomas,Orthopedics,Fracture,196,113
+844,2025-12-18,14:36,Dr. White,Neurology,Dizziness,926,82
+845,2025-12-29,04:42,Dr. Wilson,Pediatrics,Flu,192,11
+846,2025-12-16,14:31,Dr. Harris,Neurology,Migraine,352,92
+847,2025-10-09,21:32,Dr. Davis,Cardiology,Arrhythmia,82,115
+848,2025-12-04,09:51,Dr. White,Neurology,Migraine,206,43
+849,2026-03-09,14:03,Dr. Taylor,Pediatrics,Cold,1509,111
+850,2025-10-03,01:38,Dr. White,Neurology,Migraine,559,22
+851,2026-03-17,13:47,Dr. Taylor,Pediatrics,Flu,140,63
+852,2026-01-01,20:52,Dr. Anderson,General,Headache,855,69
+853,2026-01-23,20:16,Dr. Brown,Cardiology,Arrhythmia,1041,110
+854,2026-03-16,12:25,Dr. Thomas,Orthopedics,Sprain,550,16
+855,2026-01-05,08:19,Dr. Brown,Cardiology,Hypertension,575,117
+856,2025-10-16,14:26,Dr. Smith,Emergency,Trauma,657,60
+857,2025-10-12,13:28,Dr. Wilson,Pediatrics,Vaccination,468,14
+858,2026-01-18,17:13,Dr. Taylor,Pediatrics,Cold,667,82
+859,2026-03-09,13:41,Dr. Jones,Emergency,High Fever,855,60
+860,2026-01-18,22:35,Dr. Smith,Emergency,Injury,812,17
+861,2025-11-20,06:17,Dr. Smith,Emergency,High Fever,252,18
+862,2026-02-11,00:56,Dr. Anderson,General,Fever,132,34
+863,2025-11-13,22:13,Dr. Moore,General,Fever,557,44
+864,2026-03-10,16:02,Dr. Jackson,Orthopedics,Sprain,876,21
+865,2026-03-03,10:46,Dr. Davis,Cardiology,Arrhythmia,1178,10
+866,2026-02-18,08:42,Dr. Brown,Cardiology,Hypertension,1348,110
+867,2025-10-23,23:12,Dr. Moore,General,Headache,195,117
+868,2025-11-25,14:45,Dr. Smith,Emergency,Injury,858,72
+869,2026-02-07,07:00,Dr. Moore,General,Headache,556,108
+870,2026-03-22,15:15,Dr. Wilson,Pediatrics,Vaccination,542,40
+871,2026-01-20,22:00,Dr. Smith,Emergency,Trauma,869,77
+872,2025-12-04,18:23,Dr. Taylor,Pediatrics,Flu,949,15
+873,2025-12-28,02:42,Dr. Smith,Emergency,High Fever,75,68
+874,2026-03-14,08:24,Dr. Harris,Neurology,Dizziness,864,44
+875,2026-01-10,11:58,Dr. Moore,General,Headache,74,67
+876,2026-01-16,02:30,Dr. Moore,General,Physical Exam,107,90
+877,2025-10-23,17:53,Dr. Moore,General,Fever,415,41
+878,2026-01-24,11:12,Dr. Brown,Cardiology,Heart Failure,969,10
+879,2025-12-11,20:49,Dr. Smith,Emergency,High Fever,221,19
+880,2025-11-21,16:07,Dr. Smith,Emergency,Trauma,1459,12
+881,2026-01-08,08:16,Dr. White,Neurology,Dizziness,1218,24
+882,2026-03-06,00:11,Dr. Harris,Neurology,Seizure,1127,36
+883,2025-10-11,22:22,Dr. Moore,General,Fever,958,62
+884,2025-11-02,10:23,Dr. Moore,General,Headache,628,45
+885,2026-01-13,03:57,Dr. Brown,Cardiology,Hypertension,99,98
+886,2025-12-12,01:24,Dr. Anderson,General,Headache,1086,65
+887,2025-12-25,12:05,Dr. Brown,Cardiology,Hypertension,535,90
+888,2025-12-05,18:11,Dr. Harris,Neurology,Migraine,1440,95
+889,2026-02-20,12:06,Dr. Thomas,Orthopedics,Sprain,1137,66
+890,2026-03-19,10:08,Dr. Smith,Emergency,Injury,630,52
+891,2025-12-14,10:49,Dr. Brown,Cardiology,Hypertension,757,70
+892,2025-12-31,05:06,Dr. Brown,Cardiology,Hypertension,233,99
+893,2025-10-11,17:32,Dr. Moore,General,Physical Exam,675,92
+894,2026-01-02,21:21,Dr. Wilson,Pediatrics,Vaccination,696,12
+895,2025-12-27,03:12,Dr. Jackson,Orthopedics,Back Pain,521,15
+896,2026-03-08,16:05,Dr. Wilson,Pediatrics,Vaccination,154,35
+897,2025-10-20,20:38,Dr. Davis,Cardiology,Heart Failure,522,100
+898,2026-03-14,13:21,Dr. Smith,Emergency,High Fever,1544,101
+899,2025-11-15,03:14,Dr. Anderson,General,Fever,1447,86
+900,2026-02-20,15:16,Dr. Wilson,Pediatrics,Checkup,444,65
+901,2026-02-23,15:19,Dr. Smith,Emergency,Trauma,1177,67
+902,2026-01-11,23:21,Dr. Moore,General,Headache,1293,29
+903,2025-12-28,14:43,Dr. Smith,Emergency,Injury,811,87
+904,2026-02-02,04:23,Dr. Thomas,Orthopedics,Sprain,1527,13
+905,2026-01-13,19:21,Dr. Wilson,Pediatrics,Vaccination,681,61
+906,2026-01-21,10:03,Dr. Jackson,Orthopedics,Back Pain,1062,59
+907,2025-12-10,07:09,Dr. Thomas,Orthopedics,Fracture,420,57
+908,2026-01-27,19:46,Dr. Moore,General,Fever,1340,43
+909,2025-10-16,22:42,Dr. Jones,Emergency,High Fever,351,116
+910,2026-01-27,11:10,Dr. Taylor,Pediatrics,Vaccination,1240,44
+911,2025-11-19,11:57,Dr. Jones,Emergency,High Fever,313,46
+912,2025-12-26,10:57,Dr. Harris,Neurology,Seizure,426,108
+913,2025-12-30,04:46,Dr. Brown,Cardiology,Heart Failure,1180,91
+914,2026-02-26,03:14,Dr. Thomas,Orthopedics,Fracture,340,84
+915,2025-11-07,20:55,Dr. White,Neurology,Migraine,113,21
+916,2025-12-04,06:17,Dr. Wilson,Pediatrics,Checkup,324,105
+917,2025-12-23,08:33,Dr. Smith,Emergency,Chest Pain,834,13
+918,2025-12-16,23:24,Dr. Taylor,Pediatrics,Flu,645,67
+919,2026-03-05,11:15,Dr. Wilson,Pediatrics,Checkup,1017,14
+920,2026-02-25,00:07,Dr. White,Neurology,Seizure,1365,20
+921,2025-10-08,12:00,Dr. Wilson,Pediatrics,Vaccination,1075,119
+922,2025-11-21,03:56,Dr. Jones,Emergency,High Fever,50,65
+923,2026-02-20,13:04,Dr. Moore,General,Physical Exam,426,69
+924,2025-11-23,11:17,Dr. Harris,Neurology,Migraine,854,87
+925,2026-03-14,22:09,Dr. Thomas,Orthopedics,Back Pain,309,30
+926,2026-01-16,01:52,Dr. Davis,Cardiology,Heart Failure,549,117
+927,2025-12-12,10:31,Dr. Wilson,Pediatrics,Vaccination,762,67
+928,2025-12-01,00:06,Dr. White,Neurology,Dizziness,577,29
+929,2026-01-06,11:39,Dr. White,Neurology,Migraine,829,52
+930,2026-03-22,13:40,Dr. Davis,Cardiology,Heart Failure,754,24
+931,2026-01-31,03:42,Dr. Brown,Cardiology,Heart Failure,1268,87
+932,2026-03-16,02:34,Dr. Brown,Cardiology,Arrhythmia,700,95
+933,2025-11-15,08:48,Dr. Davis,Cardiology,Heart Failure,563,89
+934,2025-12-08,18:58,Dr. Taylor,Pediatrics,Cold,485,75
+935,2026-03-23,08:12,Dr. Wilson,Pediatrics,Vaccination,1255,89
+936,2025-11-05,20:37,Dr. Brown,Cardiology,Heart Failure,918,25
+937,2026-03-29,20:44,Dr. Jackson,Orthopedics,Back Pain,1117,45
+938,2025-11-06,06:02,Dr. White,Neurology,Dizziness,92,92
+939,2026-03-02,13:21,Dr. Taylor,Pediatrics,Checkup,1056,18
+940,2026-03-14,18:24,Dr. Jackson,Orthopedics,Back Pain,477,92
+941,2026-01-11,06:17,Dr. Jackson,Orthopedics,Sprain,358,64
+942,2025-11-30,13:52,Dr. Jackson,Orthopedics,Back Pain,97,76
+943,2026-03-07,01:58,Dr. Davis,Cardiology,Hypertension,1381,74
+944,2026-02-04,17:43,Dr. Anderson,General,Fever,948,56
+945,2025-10-14,18:12,Dr. Wilson,Pediatrics,Cold,388,99
+946,2026-01-05,02:39,Dr. Brown,Cardiology,Arrhythmia,445,44
+947,2025-11-10,19:33,Dr. Jones,Emergency,Trauma,1442,102
+948,2026-03-19,14:04,Dr. Thomas,Orthopedics,Fracture,834,67
+949,2026-02-25,18:46,Dr. Brown,Cardiology,Arrhythmia,1139,64
+950,2026-03-13,10:45,Dr. Davis,Cardiology,Heart Failure,670,70
+951,2025-11-23,11:03,Dr. Thomas,Orthopedics,Back Pain,1268,25
+952,2025-10-06,20:00,Dr. Harris,Neurology,Dizziness,185,89
+953,2025-10-18,16:07,Dr. Wilson,Pediatrics,Cold,107,67
+954,2026-03-15,12:17,Dr. Moore,General,Physical Exam,1010,98
+955,2026-01-27,21:55,Dr. Moore,General,Headache,67,84
+956,2025-12-24,00:18,Dr. Thomas,Orthopedics,Sprain,188,78
+957,2026-03-02,11:56,Dr. Brown,Cardiology,Arrhythmia,344,102
+958,2025-10-04,00:56,Dr. Brown,Cardiology,Heart Failure,891,108
+959,2025-11-16,15:37,Dr. Harris,Neurology,Dizziness,651,54
+960,2025-11-02,09:13,Dr. Anderson,General,Physical Exam,960,60
+961,2026-02-21,15:32,Dr. White,Neurology,Seizure,914,86
+962,2025-11-27,15:33,Dr. Wilson,Pediatrics,Vaccination,1319,78
+963,2026-02-09,22:02,Dr. Smith,Emergency,High Fever,1474,87
+964,2026-02-10,06:01,Dr. Jones,Emergency,High Fever,1090,33
+965,2026-02-23,11:41,Dr. Harris,Neurology,Dizziness,169,86
+966,2026-03-24,01:12,Dr. Davis,Cardiology,Heart Failure,606,61
+967,2025-12-22,18:33,Dr. Thomas,Orthopedics,Back Pain,1233,88
+968,2025-11-15,19:58,Dr. Thomas,Orthopedics,Sprain,426,23
+969,2025-10-25,05:48,Dr. Jackson,Orthopedics,Fracture,1440,98
+970,2026-02-22,11:17,Dr. Davis,Cardiology,Arrhythmia,529,58
+971,2025-12-29,07:16,Dr. Anderson,General,Fever,1346,95
+972,2025-11-29,10:31,Dr. Smith,Emergency,Injury,1310,27
+973,2025-11-06,08:49,Dr. Harris,Neurology,Migraine,1292,50
+974,2025-12-28,10:44,Dr. Taylor,Pediatrics,Checkup,731,117
+975,2026-03-26,05:40,Dr. Thomas,Orthopedics,Fracture,555,83
+976,2025-11-20,17:34,Dr. Jones,Emergency,Injury,594,26
+977,2026-02-10,15:10,Dr. Davis,Cardiology,Hypertension,149,35
+978,2026-01-16,22:52,Dr. Smith,Emergency,Injury,292,107
+979,2025-12-02,18:36,Dr. Smith,Emergency,Trauma,881,62
+980,2025-12-25,23:49,Dr. Harris,Neurology,Seizure,1249,92
+981,2026-02-10,23:47,Dr. Thomas,Orthopedics,Fracture,876,75
+982,2026-01-22,00:08,Dr. Thomas,Orthopedics,Fracture,51,47
+983,2025-12-30,15:35,Dr. Harris,Neurology,Migraine,805,62
+984,2026-02-15,07:25,Dr. Jones,Emergency,High Fever,1237,115
+985,2026-03-03,09:22,Dr. Anderson,General,Headache,606,28
+986,2025-12-19,16:41,Dr. Wilson,Pediatrics,Cold,1355,95
+987,2025-12-27,09:04,Dr. Moore,General,Physical Exam,1533,55
+988,2026-02-04,13:12,Dr. Thomas,Orthopedics,Back Pain,1120,60
+989,2025-10-02,03:52,Dr. Moore,General,Fever,1408,115
+990,2026-02-10,19:42,Dr. Brown,Cardiology,Hypertension,1275,70
+991,2026-01-02,00:05,Dr. Thomas,Orthopedics,Fracture,812,50
+992,2025-10-23,06:32,Dr. Thomas,Orthopedics,Sprain,836,26
+993,2026-03-03,18:03,Dr. Jackson,Orthopedics,Fracture,1463,94
+994,2026-01-18,00:31,Dr. Thomas,Orthopedics,Sprain,1201,90
+995,2025-11-17,20:33,Dr. Jackson,Orthopedics,Fracture,1106,112
+996,2026-02-26,11:25,Dr. Jones,Emergency,Injury,379,85
+997,2025-12-30,12:41,Dr. Taylor,Pediatrics,Vaccination,1428,94
+998,2025-10-15,09:01,Dr. Jackson,Orthopedics,Sprain,1101,99
+999,2025-12-13,10:05,Dr. Moore,General,Physical Exam,538,33
+1000,2025-11-26,07:19,Dr. Smith,Emergency,Chest Pain,625,99

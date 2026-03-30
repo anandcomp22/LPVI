@@ -1,0 +1,119 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{times} % Professional font
+\geometry{a4paper, margin=1in}
+
+% Header and Footer styling
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Smart Traffic Routing System}
+\fancyhead[R]{Project Report}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+% --- Formal Title Page ---
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \Huge
+        \textbf{Software-Defined Networking (SDN):}\\
+        \textbf{Smart Traffic Routing and Telemetry System}
+        
+        \vspace{1.5cm}
+        
+        \LARGE
+        \textbf{Project Report}
+        
+        \vspace{1.5cm}
+        
+        \textit{Prepared by:}\\
+        \Large
+        Anand Ankush More
+        
+        \vspace{2cm}
+        
+        \textit{Submitted to:}\\
+        \Large
+        Prof. Nitanjali Mane \\
+        Department Of Computer Engineering \\
+        Pimpri Chinchwad College Of Engineering and Research
+        
+        \vfill
+        
+        \Large
+        \date{\today}
+        
+    \end{center}
+\end{titlepage}
+
+% --- Abstract ---
+\begin{abstract}
+\noindent The rapid expansion of complex networking infrastructures necessitates the deployment of highly scalable and agile network architectures. This report presents the design, development, and implementation of a mock Software-Defined Networking (SDN) ecosystem utilizing the Nexus Controller and Mininet network emulation framework. The core deliverable is the ``Nexus NOC (Network Operations Center) Dashboard," a full-stack telemetric interface providing network administrators with real-time visualization of OpenFlow parameters. The system aggregates high-frequency load-balancing metrics—such as switch latency, dynamic bandwidth fluctuations, and packet routing table entries—and visualizes active topological failover sequences. By decoupling the control plane from the data plane, this project effectively demonstrates how modern enterprise networks can proactively mitigate congestion and dynamically enforce shortest-path algorithmic routing without administrative intervention.
+\end{abstract}
+
+\vspace{0.5cm}
+\textbf{Keywords:} \textit{Software-Defined Networking (SDN), OpenFlow Protocol, Nexus Controller, Mininet, Network Telemetry, Load Balancing, React.js}
+
+\newpage
+\tableofcontents
+\newpage
+
+\setstretch{1.5} % 1.5 line spacing for professional reports
+
+% --- 1. Introduction ---
+\section{Introduction}
+Traditional network topologies are heavily reliant on highly coupled, proprietary hardware where the control and data planes reside within the same physical device. This paradigm inherently limits scalability and agile network management. Software-Defined Networking (SDN) revolutionizes this by abstracting the routing intelligence into a centralized, programmable controller. 
+
+This project explores the practical application of SDN principles by engineering an automated OpenFlow-based network. The primary objective is twofold: to simulate dynamic traffic congestion and intelligent rerouting within a virtualized network environment, and to build an enterprise-grade Network Operations Center (NOC) dashboard capable of visualizing live telemetry data to facilitate administrative network diagnostics.
+
+% --- 2. System Architecture ---
+\section{System Architecture and Methodology}
+The architectural design of the proposed system leverages a multi-tier framework, seamlessly integrating network emulation with modern web technologies.
+
+\subsection{The Data Plane: Mininet Emulation}
+The foundational physical layout is instantiated via the Mininet framework (\texttt{topo.py}). The topology consists of multi-layered networking devices mapping eight OpenFlow-enabled switches (e.g., $S_1, S_2, ... S_8$) interconnected via 14 discrete active links, extending to 16 virtual hosts. This environment executes localized load generation sequences, establishing baseline TCP/UDP traffic and artificial link saturation to induce latency peaks.
+
+\subsection{The Control Plane: Nexus SDN Controller}
+At the apex of the hierarchy operates the Nexus SDN controller (\texttt{nexus\_controller.py}). Operating purely via the OpenFlow v1.3 protocol, the controller calculates optimal routing paths across the directed acyclic graph representing the Mininet topology. Upon detecting link thresholds exceeding maximum bandwidth capacities across the primary vector (Path A: $S_1 \rightarrow S_5 \rightarrow S_8$), the controller autonomously calculates and deploys updated OpenFlow instruction sets to redirect traffic through a failover vector (Path B: $S_4$).
+
+\subsection{Application Layer: NOC Telemetry Dashboard}
+The application plane consists of a full-stack telemetry visualization engine:
+\begin{itemize}
+    \item \textbf{Backend Simulator Server:} A robust Node.js and Express RESTful API operating natively on Port 5001. A specialized \texttt{SDNTrafficSimulator} class abstracts chronological network matrices, injecting realistic statistical variances mimicking controller polling structures.
+    \item \textbf{Frontend User Interface:} A high-performance React application incorporating Framer Motion for kinetic feedback. It translates localized JSON telemetry into responsive AreaCharts and complex SVG-driven topographical mapping arrays.
+\end{itemize}
+
+% --- 3. Results and Deliverables ---
+\section{Results and Deliverables}
+The implemented system successfully achieves all primary operational requirements:
+
+\subsection{Dynamic Topology Visualization}
+The web interface natively translates textual topology structures into interconnected graphical nodes. Upon synthetic link congestion, the controller’s failover action is visually expressed; primary links are greyed out, and alternate pathways immediately glow to indicate active packet traversal, giving administrators unambiguous operational context.
+
+\subsection{Flow Table Analytics}
+OpenFlow rules installed on arbitrary switches are securely polled and displayed dynamically. The dashboard presents critical L2/L3 matching criteria (e.g., \texttt{in\_port=1, eth\_type=0x0800}), priority integers, designated packet output ports (\texttt{output:3}), and total packet execution payloads, enabling granular network diagnostics and verification of controller actions.
+
+\subsection{Real-Time Metrics Monitoring}
+Key Performance Indicators (KPIs) such as global bandwidth utilization (in Mbps) and localized switch latency (in ms) are polled and streamed into historical coordinate planes. The interface immediately reflects severe latency perturbations and standardizes the visualization across customizable epoch windows.
+
+% --- 4. Future Enhancements ---
+\section{Future Enhancements}
+While currently operational as an end-to-end simulated engine, several enterprise-level advancements are under consideration:
+\begin{enumerate}
+    \item \textbf{Machine Learning (ML) Integration:} Integration of predictive analytic algorithms (e.g., Random Forest or LSTM models) deployed on the backend to predict congestion events vectorially prior to their initiation.
+    \item \textbf{WebSocket Architecture:} Refactoring the HTTP polling cycle into persistent, bi-directional WebSocket connections to facilitate zero-latency real-time controller updates directly to the graphical interface.
+    \item \textbf{Hardware Deployment:} Transposing the Nexus controller logic from the simulated Mininet environment to physical bare-metal OpenFlow-enabled Cisco or Juniper switches to validate physical throughput parameters.
+\end{enumerate}
+
+% --- 5. Conclusion ---
+\section{Conclusion}
+The design and successful implementation of the Nexus NOC Center underscore the vast potential of Software-Defined Networking. By decoupling network intelligence into a centralized pythonic instance and building a professional, decoupled visualization array, this project proves that complex routing protocols can be demystified and effectively managed by modern administrative interfaces. The resulting application acts as a foundational framework for scalable, agile, and robust network infrastructures.
+\end{document}
