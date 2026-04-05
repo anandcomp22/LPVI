@@ -10,9 +10,9 @@ class SimpleLoadBalancer(app_manager.RyuApp):
 
     def __init__(self, *args, **kwargs):
         super(SimpleLoadBalancer, self).__init__(*args, **kwargs)
-        self.mac_to_port = {}
-        self.link_monitors = {}
-        self.threshold = 80 # percentages load
+        self.mac_to_port = {} 
+        self.link_monitors = {} 
+        self.threshold = 80
 
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
     def switch_features_handler(self, ev):
