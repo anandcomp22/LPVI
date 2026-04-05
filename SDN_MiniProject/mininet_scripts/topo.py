@@ -13,7 +13,7 @@ class SmartRoutingTopo(Topo):
         s4 = self.addSwitch('s4', cls=OVSKernelSwitch)
         s5 = self.addSwitch('s5', cls=OVSKernelSwitch)
         s6 = self.addSwitch('s6', cls=OVSKernelSwitch)
-        s7 = self.addSwitch('s7', cls=OVSKernelSwitch)
+        s7 = self.addSwitch('s7', cls=OVSKernelSwitch) 
         s8 = self.addSwitch('s8', cls=OVSKernelSwitch)
 
         # Create Hosts
